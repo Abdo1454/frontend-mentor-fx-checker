@@ -1,73 +1,102 @@
-# React + TypeScript + Vite
+# FX Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern foreign exchange currency converter built with React, TypeScript, and Vite. This application provides real-time currency conversion using live exchange rates, historical rate charts, favorite currency pairs, and a conversion history log.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+FX Checker is a Frontend Mentor hackathon project designed to help users convert currencies, track exchange rate trends, compare multiple currencies, and manage favorite currency pairs through a clean and responsive interface.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Currency Converter
 
-## Expanding the ESLint configuration
+* Real-time currency conversion
+* Live exchange rates
+* Currency swap functionality
+* Searchable currency selection
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Rate History
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* Interactive exchange rate charts
+* Multiple time ranges
+* Historical exchange rate data
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Favorites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Save favorite currency pairs
+* Quick access to frequently used conversions
+
+### Conversion Log
+
+* Store conversion history
+* Delete individual entries
+* Clear all history
+
+### User Experience
+
+* Responsive design
+* Keyboard accessibility
+* Loading and error states
+* Modern UI
+
+## 🛠️ Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Axios
+* React Router DOM
+* Recharts
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── services/
+├── hooks/
+├── utils/
+├── types/
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 API
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project uses the Frankfurter API for live and historical exchange rate data.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+API Documentation:
+https://www.frankfurter.app/docs
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Abdo1454/frontend-mentor-fx-checker.git
+cd frontend-mentor-fx-checker
+npm install
+npm run dev
 ```
+
+## 📈 Roadmap
+
+* [x] Project setup
+* [x] Folder architecture
+* [x] Dependencies installation
+* [ ] API service layer
+* [ ] Exchange rates integration
+* [ ] Converter UI
+* [ ] Conversion logic
+* [ ] Charts and history
+* [ ] Favorites system
+* [ ] Conversion log
+* [ ] Deployment
+
+## 🏆 Challenge
+
+Built as part of the Frontend Mentor FX Checker Hackathon.
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
