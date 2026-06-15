@@ -1,0 +1,71 @@
+{
+  "currencies": [
+    { "code": "USD", "name": "United States Dollar", "flag": "/src/assets/images/flags/us.webp" },
+    { "code": "EUR", "name": "Euro", "flag": "/src/assets/images/flags/eu.webp" },
+    { "code": "GBP", "name": "British Pound", "flag": "/src/assets/images/flags/gb.webp" },
+    { "code": "JPY", "name": "Japanese Yen", "flag": "/src/assets/images/flags/jp.webp" },
+    { "code": "AUD", "name": "Australian Dollar", "flag": "/src/assets/images/flags/au.webp" },
+    { "code": "CAD", "name": "Canadian Dollar", "flag": "/src/assets/images/flags/ca.webp" },
+    { "code": "CHF", "name": "Swiss Franc", "flag": "/src/assets/images/flags/ch.webp" },
+    { "code": "CNY", "name": "Chinese Yuan", "flag": "/src/assets/images/flags/cn.webp" },
+    { "code": "INR", "name": "Indian Rupee", "flag": "/src/assets/images/flags/in.webp" },
+    { "code": "KRW", "name": "South Korean Won", "flag": "/src/assets/images/flags/kr.webp" },
+
+    { "code": "MXN", "name": "Mexican Peso", "flag": "/src/assets/images/flags/mx.webp" },
+    { "code": "BRL", "name": "Brazilian Real", "flag": "/src/assets/images/flags/br.webp" },
+    { "code": "RUB", "name": "Russian Ruble", "flag": "/src/assets/images/flags/ru.webp" },
+    { "code": "ZAR", "name": "South African Rand", "flag": "/src/assets/images/flags/za.webp" },
+    { "code": "TRY", "name": "Turkish Lira", "flag": "/src/assets/images/flags/tr.webp" },
+
+    { "code": "SAR", "name": "Saudi Riyal", "flag": "/src/assets/images/flags/sa.webp" },
+    { "code": "AED", "name": "UAE Dirham", "flag": "/src/assets/images/flags/ae.webp" },
+    { "code": "EGP", "name": "Egyptian Pound", "flag": "/src/assets/images/flags/eg.webp" },
+    { "code": "KWD", "name": "Kuwaiti Dinar", "flag": "/src/assets/images/flags/kw.webp" },
+    { "code": "QAR", "name": "Qatari Rial", "flag": "/src/assets/images/flags/qa.webp" },
+
+    { "code": "NOK", "name": "Norwegian Krone", "flag": "/src/assets/images/flags/no.webp" },
+    { "code": "SEK", "name": "Swedish Krona", "flag": "/src/assets/images/flags/se.webp" },
+    { "code": "DKK", "name": "Danish Krone", "flag": "/src/assets/images/flags/dk.webp" },
+    { "code": "PLN", "name": "Polish Zloty", "flag": "/src/assets/images/flags/pl.webp" },
+    { "code": "CZK", "name": "Czech Koruna", "flag": "/src/assets/images/flags/cz.webp" },
+
+    { "code": "HUF", "name": "Hungarian Forint", "flag": "/src/assets/images/flags/hu.webp" },
+    { "code": "RON", "name": "Romanian Leu", "flag": "/src/assets/images/flags/ro.webp" },
+    { "code": "UAH", "name": "Ukrainian Hryvnia", "flag": "/src/assets/images/flags/ua.webp" },
+    { "code": "ILS", "name": "Israeli New Shekel", "flag": "/src/assets/images/flags/il.webp" },
+
+    { "code": "THB", "name": "Thai Baht", "flag": "/src/assets/images/flags/th.webp" },
+    { "code": "VND", "name": "Vietnamese Dong", "flag": "/src/assets/images/flags/vn.webp" },
+    { "code": "IDR", "name": "Indonesian Rupiah", "flag": "/src/assets/images/flags/id.webp" },
+    { "code": "PHP", "name": "Philippine Peso", "flag": "/src/assets/images/flags/ph.webp" },
+    { "code": "MYR", "name": "Malaysian Ringgit", "flag": "/src/assets/images/flags/my.webp" },
+
+    { "code": "PKR", "name": "Pakistani Rupee", "flag": "/src/assets/images/flags/pk.webp" },
+    { "code": "BDT", "name": "Bangladeshi Taka", "flag": "/src/assets/images/flags/bd.webp" },
+    { "code": "LKR", "name": "Sri Lankan Rupee", "flag": "/src/assets/images/flags/lk.webp" },
+
+    { "code": "NGN", "name": "Nigerian Naira", "flag": "/src/assets/images/flags/ng.webp" },
+    { "code": "KES", "name": "Kenyan Shilling", "flag": "/src/assets/images/flags/ke.webp" },
+    { "code": "MAD", "name": "Moroccan Dirham", "flag": "/src/assets/images/flags/ma.webp" },
+    { "code": "DZD", "name": "Algerian Dinar", "flag": "/src/assets/images/flags/dz.webp" },
+
+    { "code": "COP", "name": "Colombian Peso", "flag": "/src/assets/images/flags/co.webp" },
+    { "code": "CLP", "name": "Chilean Peso", "flag": "/src/assets/images/flags/cl.webp" },
+    { "code": "ARS", "name": "Argentine Peso", "flag": "/src/assets/images/flags/ar.webp" },
+
+    { "code": "HKD", "name": "Hong Kong Dollar", "flag": "/src/assets/images/flags/hk.webp" },
+    { "code": "SGD", "name": "Singapore Dollar", "flag": "/src/assets/images/flags/sg.webp" },
+    { "code": "NZD", "name": "New Zealand Dollar", "flag": "/src/assets/images/flags/nz.webp" },
+
+    { "code": "KZT", "name": "Kazakhstani Tenge", "flag": "/src/assets/images/flags/kz.webp" },
+    { "code": "IQD", "name": "Iraqi Dinar", "flag": "/src/assets/images/flags/iq.webp" },
+    { "code": "JOD", "name": "Jordanian Dinar", "flag": "/src/assets/images/flags/jo.webp" },
+    { "code": "OMR", "name": "Omani Rial", "flag": "/src/assets/images/flags/om.webp" },
+    { "code": "BHD", "name": "Bahraini Dinar", "flag": "/src/assets/images/flags/bh.webp" },
+
+    { "code": "ISK", "name": "Icelandic Krona", "flag": "/src/assets/images/flags/is.webp" },
+    { "code": "HRK", "name": "Croatian Kuna", "flag": "/src/assets/images/flags/hr.webp" },
+    { "code": "TND", "name": "Tunisian Dinar", "flag": "/src/assets/images/flags/tn.webp" },
+    { "code": "LYD", "name": "Libyan Dinar", "flag": "/src/assets/images/flags/ly.webp" }
+  ]
+}
